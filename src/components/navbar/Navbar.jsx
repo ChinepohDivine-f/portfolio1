@@ -1,39 +1,52 @@
-import { useState } from "react"
-//import "C:\Users\CONCEPTS\Documents\my-app\src\components\navbar\navbar.css"
+import React from "react";
+import "./navbar.css";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { BiBook } from "react-icons/bi";
+import { RiServiceLine } from "react-icons/ri";
+import { BiMessageSquareDetail } from "react-icons/bi";
+import { useState } from "react";
 
-export default function Navbar() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false)
-
+const Navbar = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
-    <nav className="navigation">
-      <a href="/" className="brand-name">
-        MacroSoft
+    <nav>
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? 'active' : ''}
+      >
+        <AiOutlineHome />
       </a>
-      <button
-        className="hamburger"
-        onClick={() => {
-          setIsNavExpanded(!isNavExpanded)
-        }}
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === '#about' ? 'active' : ''}
       >
-        {/* hamburger svg code... */}
-      </button>
-      <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
+        <AiOutlineUser />
+      </a>
+      <a 
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? 'active' : ''}
       >
-        <ul>
-          <li>
-            <a href="/home">Home</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+        <BiBook />
+      </a>
+      <a 
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? 'active' : ''}
+      >
+        <RiServiceLine />
+      </a>
+      <a href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? 'active' : ''}
+      >
+        <BiMessageSquareDetail />
+      </a>
     </nav>
   );
-}
+};
+
+export default Navbar;

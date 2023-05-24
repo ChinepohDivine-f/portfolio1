@@ -12,12 +12,12 @@
 
   :root {
     
-    --color-bg:#1f2f38; 
-    --color-bg-variant:#2c4c6c;
-    --color-primary:#4d97ff;
-    --color-primary-variant:rgba(77, 190, 255, 0.4);
-    --color-white:#fff;
-    --color-light:rgba(255, 255, 255, 0.6);
+    --color-bg:#062848; 
+    --color-bg-variant:#deefff;
+    --color-primary:#e0a73d;
+    --color-primary-variant:rgba(0, 255, 200, 0.4);
+    --color-white:#edf8ff;
+    --color-light:rgba(180, 210, 255, 0.6);
     --container-width-lg:75%;
     /*size of the container we are going to use on different*/
     --container-width-md:86%;
@@ -56,6 +56,7 @@
 
   section {
     margin-top: 8rem;
+    height: 100vh;
   }
 
   section > h2,
