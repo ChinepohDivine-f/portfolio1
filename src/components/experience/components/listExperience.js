@@ -5,16 +5,16 @@ import axios from "axios";
 const ListExperiences = () => {
   const [data, setData] = useState([]);
 
-  useEffect(() => {
-    getExperiences();
-  }, []);
+  // useEffect(() => {
+  //   getExperiences();
+  // }, []);
 
-  const getExperiences = async () => {
-    const response = await axios.get(
-      "http://localhost:5000/api/experience/experiences"
-    );
-    setData(response.data.experience);
-  };
+  // const getExperiences = async () => {
+  //   const response = await axios.get(
+  //     "http://localhost:5000/api/experience/experiences"
+  //   );
+  //   setData(response.data.experience);
+  // };
   return data.map((d) => {
     return (
       <div key={d._id} className="experience__backend">

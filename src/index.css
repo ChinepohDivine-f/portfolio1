@@ -13,11 +13,11 @@
   :root {
     
     --color-bg:#062848; 
-    --color-bg-variant:#84bff7;
+    --color-bg-variant:#659ed3;
     --color-primary:#e0a73d;
     --color-primary-variant:rgba(76, 245, 42, 0.4);
-    --color-white:#edf8ff;
-    --color-light:rgba(180, 210, 255, 0.6);
+    --color-white:#bae5ff;
+    --color-light:rgba(89, 148, 236, 0.6);
     --container-width-lg:75%;
     /*size of the container we are going to use on different*/
     --container-width-md:86%;
