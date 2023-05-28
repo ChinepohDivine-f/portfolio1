@@ -41,7 +41,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option__icon" /> <h4>Email</h4>
             <h5>divinechinepoh.com</h5>
-            <a href="mailto:aldenovpoutine99@gmail.com" target="_blank">
+            <a href="mailto:divinechinepoh@gmail.com" target="_blank">
               send a message
             </a>
           </article>
@@ -49,7 +49,7 @@ const Contact = () => {
             <AiOutlineLinkedin className="contact__option__icon" />
             <h4>LinkedIn</h4> <h5>Chinepoh Divine-favour</h5>
             <a
-              href="https://www.linkedin.com/in/brown-djomo-844b96164/"
+              href="https://www.linkedin.com/in/chinepoh divine/"
               target="_blank"
             >
               Tape me on LinkedIn
@@ -59,7 +59,7 @@ const Contact = () => {
             <BsWhatsapp className="contact__option__icon" /> <h4>Whatsapp</h4>
             <h5>DdivineConcepts</h5>
             <a
-              href="https://web.whatsapp.com/send?phone=+237657268549"
+              href="https://web.whatsapp.com/send?phone=+237678439032"
               target="_blank"
             >
               Whatsapp me

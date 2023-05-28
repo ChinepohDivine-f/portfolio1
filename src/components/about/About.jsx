@@ -45,10 +45,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-            vitae recusandae cupiditate impedit saepe, voluptate nisi vel quam
-            sapiente ab, commodi sint distinctio dolore voluptatum deleniti vero
-            eum tempore facilis.
+            I am a software engineering student in the University of Buea.
+            Currently learning the most recent technologies to keep my self
+            updated. I can offer you my skills with the assureance that the job
+            will be done on time and with the best results you can get. You can
+            view my <a href><strong>skills</strong></a>, <a href >exerinces</a> and portfolio in this page.
           </p>
 
           <a href=""></a>
