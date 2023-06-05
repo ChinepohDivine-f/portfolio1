@@ -49,19 +49,23 @@ h3{
 } */
 
 .exp{
-    width: 45%;
+    width: 100%;
     background-color: var(--color-bg-variant);
     display: -ms-inline-flexbox;
     border-radius: 30px;
-    padding: 2rem;
+    margin-trim: -5rem;
+    padding: 1.5rem;
+    transform: var(--transition);
     /* margin-inline-end: -5em; */
+    /* margin: 0rem; */
     margin-bottom: 2rem;
 }
 
 .exp:hover {
     background-color: transparent;
     /* margin: 1rem; */
-    padding: 5em;
+    /* padding: 3em; */
+    border: 3px;
     border-style: double;
     border-color: var(--color-primary-variant);
 }
@@ -74,6 +78,14 @@ h3{
     background: transparent;
     
     background-color: var(--color-bg-primary);
+}
+
+.experience{
+    display: inline-block;
+    width: 50%;
+    padding: 1.0rem;
+    margin: 0rem;
+    margin-inline: -8;
 }
 
 /* @media screen and (max-width: px){
