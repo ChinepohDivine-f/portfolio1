@@ -6,11 +6,13 @@ import { CgTwitter } from "react-icons/cg";
 const HeaderSocial = () => {
   return (
     <div className="header__social">
-      
       <a href="https://linkedin.com" target="blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="blank">
+      <a
+        href="https://github.com/ChinepohDivine-f"
+        target="blank"
+      >
         <FaGithub />
       </a>
       <a href="https://facebook.com" target="blank">

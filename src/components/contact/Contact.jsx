@@ -49,7 +49,7 @@ const Contact = () => {
             <AiOutlineLinkedin className="contact__option__icon" />
             <h4>LinkedIn</h4> <h5>Chinepoh Divine-favour</h5>
             <a
-              href="https://www.linkedin.com/in/chinepoh divine/"
+              href="https://www.linkedin.com/in/chinepohdivine/"
               target="_blank"
             >
               Tape me on LinkedIn

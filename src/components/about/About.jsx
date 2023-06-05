@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About-image" />
+            <img src={ME} alt="About__image" />
           </div>
         </div>
 
@@ -49,7 +49,21 @@ const About = () => {
             Currently learning the most recent technologies to keep my self
             updated. I can offer you my skills with the assureance that the job
             will be done on time and with the best results you can get. You can
-            view my <a href><strong>skills</strong></a>, <a href >exerinces</a> and portfolio in this page.
+            view my{" "}
+            <a href="#services">
+              <strong>skills</strong>
+            </a>
+            ,{" "}
+            <a href="#experience">
+              <strong> experiences </strong>
+            </a>
+
+            and
+            <a href="#portfolio">
+              {" "}
+              <strong>portfolio</strong>
+            </a>{" "}
+            in this page.
           </p>
 
           <a href=""></a>

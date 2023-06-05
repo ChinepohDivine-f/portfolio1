@@ -33,22 +33,35 @@ header {
 after the social icons*/
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 3rem;
     background: var(--color-primary);
 }
 
 .my_image {
+    /* padding-left:55%; */
+    /* width:35%;
+    height: 30rem; */
+    align-self: center;
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    Height: 35rem;
+    Height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 11rem); 
     /*this help to place the image to the middle of screen*/
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 1rem 5rem 0 0;
     overflow: hidden;
-    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    transform: var(--transition);
+    padding: 0rem 0.1rem 0.1rem 0.1rem;
 }
+
+.my_image:hover{
+    border: 3px;
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    background-color:transparent;
+}
+
 
 .scroll__down {
     position: absolute;
@@ -66,15 +79,25 @@ specific screen*/
     header {
         height: 68vh
     }
+         div.my_image:hover {
+    
+             height: 400rem;
+             width: 40rem;
+             bleed: 2px;
+             border-radius: 1rem 5rem 0 0;
+             transform: rotate(0deg);
+         }
 }
 
 @media screen and(max-width:600px) {
     header {
-        height: 100vh
+        height: 150vh
     }
 
-    .header__social,
-    .scroll__down {
+    .header__social {
         display: none;
     }
+        .scroll__down{
+            display: none;
+        }
 }
