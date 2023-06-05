@@ -48,7 +48,15 @@ after the social icons*/
     margin-top: 4rem;
     border-radius: 1rem 5rem 0 0;
     overflow: hidden;
+    transform: var(--transition);
     padding: 0rem 0.1rem 0.1rem 0.1rem;
+}
+
+.my_image:hover{
+    border: 3px;
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    background-color:transparent;
 }
 
 

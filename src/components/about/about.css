@@ -22,14 +22,22 @@
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    border-radius: 3rem;
     overflow: hidden;
     transform-origin: rotate(10deg);
     transition: var(--transition);
 }
 
+.about__image:hover{
+    margin: 0rem;
+    border-radius: 3rem;
+}
+
 .about__me-image:hover{
-    transform: rotate(45);
+    transform: rotate(20deg);
+    height: 130%;
+    width: 130%;
+
 }
 
 .about__cards{
@@ -96,12 +104,16 @@
     transform: rotate(5deg);
     transition: var(--transition);
 }
-
+/* 
 .about__me__image:hover {
-    transform: rotate(20deg);
-    height: 130%;
-    width: 130%;
-}
+    padding: 1.5rem;
+    border-radius: 3rem; */
+    /* border: 3px; */
+    /* border-color: var(--color-primary-variant); */
+    /* transform: rotate(15deg);
+    height: 140%;
+    width: 140%;
+} */
 
 .about__cards {
     display: grid;
@@ -185,7 +197,7 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 645px) {
 
     .about__container {
         grid-template-columns: 1fr;
